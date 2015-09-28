@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\bin\Debug\BetterRandomFunnySentence.exe.config
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\bin\Debug\BetterRandomFunnySentence.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\bin\Debug\BetterRandomFunnySentence.pdb
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\obj\Debug\BetterRandomFunnySentence.csprojResolveAssemblyReference.cache
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\obj\Debug\BetterRandomFunnySentence.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\BetterRandomFunnySentence\BetterRandomFunnySentence\obj\Debug\BetterRandomFunnySentence.pdb
