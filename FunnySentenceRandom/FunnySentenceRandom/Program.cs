@@ -33,10 +33,10 @@ namespace FunnySentenceRandom
                 answer.ToLower();                                   //convert answer to lower case if needed
                 if (answer == "yes")
                 {
-                    continue;                                       //run program again if use say they want to play again
+                    continue;                                       //run program again if user says they want to play again
                 }
                 else
-                    break;                                          //exit the program if the use doesn't say yes
+                    break;                                          //exit the program if the user doesn't say yes
             }
         }
     }
