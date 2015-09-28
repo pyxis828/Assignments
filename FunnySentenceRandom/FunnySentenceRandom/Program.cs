@@ -1,23 +1,23 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace FunnySentenceRandom
+using System.Security.Cryptography;
+namespace BetterRandomFunnySentence
 {
     class Program
     {
-        static void Main(string[] args)     //Make a program that will create random sentences 
-        {                                   // You will have values for noun, verb and prepositional phrase.          
+        static void Main(string[] args)
+        {
             bool play = true;
-            while(play == true)
+            while (play == true)
             {
-                Random randnum = new Random();          //random number generator
+                CryptoRandom randnum = new CryptoRandom();  //random number generator
                 int noun = randnum.Next(1, 11);         //set number variable for noun   
                 int verb = randnum.Next(1, 11);         //set number variable for verb
                 int phrase = randnum.Next(1, 11);       //set number variable for prepositional phrase
-                string [] nounList = { "She", "He", "It", "The cat", "The mongoose",    //create array with list of 10 nouns
+                string[] nounList = { "She", "He", "It", "The cat", "The mongoose",    //create array with list of 10 nouns
                     "The orange", "The trampoline", "Musicians", "Programmers", "The shake" };
                 string[] verbList = { "ate", "barbecued", "chirped", "collided", "sang",    //create array with list of 10 verbs
                     "spoke", "cartwheeled", "dined", "watched", "directed" };
@@ -33,11 +33,43 @@ namespace FunnySentenceRandom
                 answer.ToLower();                                   //convert answer to lower case if needed
                 if (answer == "yes")
                 {
-                    continue;                                       //run program again if use say they want to play again
+                    continue;                                       //run program again if user says they want to play again
                 }
                 else
-                    break;                                          //exit the program if the use doesn't say yes
+                    break;                                          //exit the program if the user doesn't say yes
+            }
+        }
+
+        class CryptoRandom : RandomNumberGenerator              //method for random number generation with thanks to
+        {                                                       //Ben Klopfer at Imagine Technology Group
+            private static RandomNumberGenerator r;
+            public CryptoRandom()
+            {
+                r = RandomNumberGenerator.Create();
+            }
+            public override void GetBytes(byte[] buffer)
+            {
+                r.GetBytes(buffer);
+            }
+            public double NextDouble()
+            {
+                byte[] b = new byte[4];
+                r.GetBytes(b);
+                return (double)BitConverter.ToUInt32(b, 0) / UInt32.MaxValue;
+            }           
+            public int Next(int minValue, int maxValue)
+            {
+                return (int)Math.Round(NextDouble() * (maxValue - minValue - 1)) + minValue;
+            }
+            public int Next()
+            {
+                return Next(0, Int32.MaxValue);
+            }           
+            public int Next(int maxValue)
+            {
+                return Next(0, maxValue);
             }
         }
     }
 }
+
