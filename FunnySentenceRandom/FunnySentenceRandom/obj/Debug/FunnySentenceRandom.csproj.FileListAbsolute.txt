@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\bin\Debug\FunnySentenceRandom.exe.config
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\bin\Debug\FunnySentenceRandom.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\bin\Debug\FunnySentenceRandom.pdb
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\obj\Debug\FunnySentenceRandom.csprojResolveAssemblyReference.cache
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\obj\Debug\FunnySentenceRandom.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\FunnySentenceRandom\FunnySentenceRandom\obj\Debug\FunnySentenceRandom.pdb
