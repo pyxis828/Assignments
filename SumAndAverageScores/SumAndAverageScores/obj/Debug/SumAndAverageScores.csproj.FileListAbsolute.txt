@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\bin\Debug\SumAndAverageScores.exe.config
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\bin\Debug\SumAndAverageScores.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\bin\Debug\SumAndAverageScores.pdb
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\obj\Debug\SumAndAverageScores.csprojResolveAssemblyReference.cache
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\obj\Debug\SumAndAverageScores.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\SumAndAverageScores\SumAndAverageScores\obj\Debug\SumAndAverageScores.pdb

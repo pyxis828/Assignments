@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\bin\Debug\StudentNameList.exe.config
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\bin\Debug\StudentNameList.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\bin\Debug\StudentNameList.pdb
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\obj\Debug\StudentNameList.csprojResolveAssemblyReference.cache
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\obj\Debug\StudentNameList.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\StudentNameList\StudentNameList\obj\Debug\StudentNameList.pdb
