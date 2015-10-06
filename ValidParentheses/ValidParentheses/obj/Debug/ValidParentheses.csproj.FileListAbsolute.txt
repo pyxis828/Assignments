@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ValidParentheses\ValidParentheses\bin\Debug\ValidParentheses.exe.config
+C:\Users\Kirstin Walsh\Documents\Visual Studio 2015\Projects\ValidParentheses\ValidParentheses\bin\Debug\ValidParentheses.exe
+C:\Users\Kirstin Walsh\Documents\Visual Studio 2015\Projects\ValidParentheses\ValidParentheses\bin\Debug\ValidParentheses.pdb
+C:\Users\Kirstin Walsh\Documents\Visual Studio 2015\Projects\ValidParentheses\ValidParentheses\obj\Debug\ValidParentheses.csprojResolveAssemblyReference.cache
+C:\Users\Kirstin Walsh\Documents\Visual Studio 2015\Projects\ValidParentheses\ValidParentheses\obj\Debug\ValidParentheses.exe
+C:\Users\Kirstin Walsh\Documents\Visual Studio 2015\Projects\ValidParentheses\ValidParentheses\obj\Debug\ValidParentheses.pdb
