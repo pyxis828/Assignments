@@ -1,0 +1,6 @@
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\bin\Debug\ZooAnimalsDictionary.exe.config
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\bin\Debug\ZooAnimalsDictionary.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\bin\Debug\ZooAnimalsDictionary.pdb
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\obj\Debug\ZooAnimalsDictionary.csprojResolveAssemblyReference.cache
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\obj\Debug\ZooAnimalsDictionary.exe
+c:\users\kirstin walsh\documents\visual studio 2015\Projects\ZooAnimalsDictionary\ZooAnimalsDictionary\obj\Debug\ZooAnimalsDictionary.pdb
