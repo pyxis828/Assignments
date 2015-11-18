@@ -15,12 +15,12 @@ namespace BetterRandomFunnySentence
             bool play = true;
             while (play == true)
             {
-                string line = "";                                       //create variable to store text read from file
-                StreamReader reader = new StreamReader("nouns.txt");    //declare StreamReader and file name to be read
-                using (reader)
-                {                                                       //read line from file(if necessary add while loop
-                    line = reader.ReadLine();                           //and additional ReadLine to continue while
-                }                                                       //line is not null)
+               // string line = "";                                       //create variable to store text read from file
+              //  StreamReader reader = new StreamReader("nouns.txt");    //declare StreamReader and file name to be read
+              //  using (reader)
+              //  {                                                       //read line from file(if necessary add while loop
+              //      line = reader.ReadLine();                           //and additional ReadLine to continue while
+              //  }                                                       //line is not null)
                 CryptoRandom randnum = new CryptoRandom();  //random number generator
                 int noun = randnum.Next(1, 11);         //set number variable for noun   
                 int verb = randnum.Next(1, 11);         //set number variable for verb
