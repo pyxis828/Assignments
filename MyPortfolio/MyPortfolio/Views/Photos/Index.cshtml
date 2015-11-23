@@ -1,0 +1,128 @@
+﻿<link href="~/Content/Photos.css" rel="stylesheet" />
+@model IEnumerable<MyPortfolio.Models.Photo>
+
+@{
+    ViewBag.Title = "Project Screen Shots";
+}
+<br />
+<h2 class="text-center">Project Screen Shots</h2>
+<br />
+
+<p>    
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hover table-responsive">
+    <tr>
+        <th>
+           Project Name
+        </th>
+        <th>
+           Photo 1
+        </th>
+        <th>
+            Photo 2
+        </th>
+        <th>
+            Photo 3
+        </th>
+        <th>
+            Photo 4
+        </th>
+        <th>
+            Photo 5
+        </th>
+        <th>
+            Photo 6
+        </th>
+        <th>
+            Photo 7
+        </th>
+        <th>
+            Photo 8
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Project_Name)
+        </td>
+        <td>
+            <img id="article" height="100" width="100" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo1)" alt=" project image one" />
+        </td>
+        <td>
+            @if (item.Photo2 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo2)" alt=" project image two" />
+            }
+          
+        </td>
+        <td>
+            @if (item.Photo3 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo3)" alt=" project image three" />
+            }
+        </td>
+        <td>
+            @if (item.Photo4 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo4)" alt=" project image four" />
+            }
+        </td>
+        <td>
+            @if (item.Photo5 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo5)" alt=" project image five" />
+            }
+        </td>
+        <td>
+            @if (item.Photo6 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo6)" alt=" project image six" />
+            }
+        </td>
+        <td>
+            @if (item.Photo7 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo7)" alt=" project image seven" />
+            }
+        </td>
+        <td>
+            @if (item.Photo8 != null)
+            {
+                <img id="article" height="100" width="100"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="@Url.Content(item.Photo8)" alt=" project image eight" />
+            }
+        </td>       
+        <td>
+          <div style="width: 75px">
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) 
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) 
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+          </div>
+        </td>
+    </tr>
+}
+
+</table>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img class="img-responsive" height="600" width="850" src="" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('img').on('click', function () {
+            var image = $(this).attr('src');
+            $('#myModal').on('show.bs.modal', function () {
+                $(".img-responsive").attr("src", image);
+            });
+        });
+    });
+</script>

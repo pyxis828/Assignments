@@ -1,0 +1,25 @@
+﻿body {
+   
+    background-image: url('MyPics/lblue139.jpg');
+    background-position: left top;
+    background-repeat: repeat;
+}
+   .jumbotron{
+    height: 500px;
+}
+#jumboPic{
+    float: right;  
+}
+#codePic{
+    margin-left: 25px;
+}
+#homeHeader {
+    margin-left: 85px;
+}
+a {
+   color: #BF981A;
+   
+}
+#contact:hover{
+    text-decoration: none;
+}

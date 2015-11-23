@@ -1,0 +1,37 @@
+﻿body {
+    background-image: url('MyPics/lgren051.jpg');   
+    background-position: left top;
+    background-repeat: repeat;
+}
+table tr:nth-child(even){
+    background-color:floralwhite;
+}
+table tr:nth-child(odd){
+    background-color:#eff7e8;
+}
+table{
+    border: 10px solid black;
+}
+#panelSept{
+    margin-left: 30px;
+}
+#panelNov{
+    margin-left: 20px;
+}
+.img{
+    border: 1px solid blue;    
+}
+#article img{border: 1px solid  #18bc9c;
+cursor: pointer; cursor: -webkit-zoom-in; cursor: -Moz-Zoom-In;
+}
+.overlay{
+    position:absolute;
+    top:200px;
+    left: 0;
+    height: 600px;
+    width: 800px;
+    z-index:1;
+}
+
+#article img.zoomed{cursor:-webkit-zoom-out; cursor: -Moz-Zoom-Out;}
+#article img.noZoom{cursor:default;}

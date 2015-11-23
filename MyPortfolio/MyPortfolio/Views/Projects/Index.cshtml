@@ -1,0 +1,155 @@
+﻿@model IEnumerable<MyPortfolio.Models.Project>
+<link href="~/Content/Projects.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <h1 class="text-center">Featured Projects</h1>
+    <h2 class="col-md-1 divider"></h2>
+    <h2 class="col-md-3">September</h2>
+    <h2 class="col-md-1 divider"></h2>
+    <h2 class="col-md-3">October</h2>
+    <h2 class="col-md-1 divider"></h2>
+    <h2 class="col-md-3">November</h2>
+</div>
+<br />
+<div id="showPics"></div>
+
+    <div class="panel panel-success col-md-3" id="panelSept">
+        <div class="panel-heading">
+            <h3 class="panel-title text-capitalize text-center">Text Dollars</h3>
+        </div>
+        <div class="panel-body">This project is a CodeEval challenge with a rating of "hard."  Given a positive integer number up to one billion, print this out in English as dollars.</div>
+        <div id="article">
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart1.JPG" alt="Text dollar code part one." /> 
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart2.JPG" alt="Text dollar code part two." />           
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart3.JPG" alt="Text dollar code part three." />
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart4.JPG" alt="Text dollar code part four." />
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart5.JPG" alt="Text dollar code part five." />
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart6.JPG" alt="Text dollar code part six." />
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart7.JPG" alt="Text dollar code part seven." />
+            <img  height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TextDollarPart8.JPG" alt="Text dollar code part eight." />
+      </div>
+</div>  
+<div class="panel panel-success col-md-offset-1 col-md-3" id="panelOct">
+    <div class="panel-heading">
+        <h3 class="panel-title text-capitalize text-center">Movie Rentals</h3>
+    </div>
+    <div class="panel-body"> First iteration of an app for a movie rental store which allows the owner to check out movies, check in movies, and to get a list of customers who have late movies.</div>
+    <div id="article">
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart1.JPG" />
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart2.JPG" />
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart3.JPG" />
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart4.JPG" />
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart5.JPG" />
+        <img height="100" width="80" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/MovieRentalsPart6.JPG" />
+    </div>
+</div>
+
+    <div class="col-md-1"></div>
+    <div class="panel panel-success col-md-3" id="panelNov">
+        <div class="panel-heading">
+            <h3 class="panel-title text-capitalize text-center">Tourny Manager</h3>
+        </div>
+        <div class="panel-body">A desktop application utilizing WPF which will allow the user to run a poker tournament at home. Each tournament level is defined by entering an amount for the small blind, the big blind, and the level time, which are then displayed on the screen. It is optional to enter antes and list the current game being played. The user may customize their own structures or use a predefined structure.</div>
+        <div id="article">
+            <img height="100" width="80"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/CSforStructureEntryTournamentManager.JPG" />
+            <img height="100" width="80"  data-toggle="modal" data-target="#myModal" data-dismiss="modal"src="~/Content/MyPics/XAMLfor StructureEntryTournyManager.JPG" />
+            <img height="100" width="80"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TournyManagerLevels.JPG" />
+            <img height="100" width="80"  data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TournyManagerTimerControl.JPG" />
+            <img height="100" width="120" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/Tourny ManagerOpeningScreen.JPG" />
+            <img height="100" width="120" data-toggle="modal" data-target="#myModal" data-dismiss="modal"src="~/Content/MyPics/TournyManagerStructureEntry.JPG" />       
+            <img height="100" width="120" data-toggle="modal" data-target="#myModal" data-dismiss="modal" src="~/Content/MyPics/TournyManagerTournamentWindow.JPG" />
+        </div>
+    </div>
+
+<br />
+<br />
+ 
+
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-bordered table-hover table-responsive">
+
+        <tr>
+            <th>
+                <div style="width:100px">
+                    Project Name
+                </div>
+            </th>
+            <th>
+                <div style="width:90px">
+                    @Html.DisplayNameFor(model => model.Date)
+                </div>
+            </th>
+            <th>
+                <div style="width: 600px">
+                    @Html.DisplayNameFor(model => model.Description)
+                </div>
+            </th>
+            <th>
+                <div style="width:90px">
+                    GitHub
+                </div>
+            </th>
+          
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a href="@item.GitHub_Link" target="_blank">View on GitHub</a>
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                    @Html.ActionLink("Details", "Details", new { id = item.ID })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>              
+            </tr>
+        }
+
+    </table>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-responsive" height="600" width="850" src="" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            /* $('img').on('click', function () {
+                 var currentDOM = $(this).parent();
+                 $(this).toggleClass('overlay');
+                 $(this).appendTo('#showPics');
+                 $(this).on('click', function () {
+                     $(this).prependTo(currentDOM);
+                 });
+             });*/
+
+            $('img').on('click', function () {
+                var image = $(this).attr('src');
+                $('#myModal').on('show.bs.modal', function () {
+                    $(".img-responsive").attr("src", image);
+                });
+            });
+        });
+    </script>

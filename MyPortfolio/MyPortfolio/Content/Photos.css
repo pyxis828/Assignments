@@ -1,0 +1,17 @@
+﻿body {
+    background-image: url('MyPics/lgren051.jpg');   
+    background-position: left top;
+    background-repeat: repeat;
+}
+table tr:nth-child(even){
+    background-color:floralwhite;
+}
+table tr:nth-child(odd){
+    background-color:#eff7e8;
+}
+.img{
+    border: 1px solid blue;    
+}
+#article {border: 1px solid  #18bc9c;
+cursor: pointer; cursor: -webkit-zoom-in; cursor: -Moz-Zoom-In;
+}

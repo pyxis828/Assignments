@@ -1,0 +1,15 @@
+﻿body {
+    background-image: url('MyPics/lgren033.jpg');   
+    background-position: top left;
+    background-repeat: repeat;
+}
+
+pic2{
+    float:right;
+}
+#hobbies{
+    margin-right: 120px;
+}
+#piano{
+    margin-left: 220px;
+}
